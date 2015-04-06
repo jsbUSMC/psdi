@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+        <title>Professional Self Defense Institute - Contact Us</title>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <style type="text/css">
@@ -21,25 +21,22 @@
         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script type="text/javascript">
             function initialize() {
-                var myLatLng = new google.maps.LatLng(39.0894951, -108.5898649);
+                var myLatLng = new google.maps.LatLng(39.090627, -108.590241);
                 var mapOptions = {
                     center: myLatLng,
-                    zoom: 15,
+                    zoom: 16,
                     mapTypeId: google.maps.MapTypeId.HYBRID
                 }
-                map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+                myMap = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
                 
                 var marker = new google.maps.Marker({
-                position: google.maps.LatLng(39.0894951, -108.5898649),
-                map: map,
+                position: myLatLng,
+                map: myMap,
                 title:"Professional Self Defense Institute"
             });
-            
-            
             }
-            
             google.maps.event.addDomListener(window, 'load', initialize);
-            
+            marker.setMap(myMap);
         </script>
     </head>
     <body>
@@ -100,6 +97,24 @@
                                     <abbr title="Email">E:</abbr> <a href="mailto:kenposansoo@gmail.com">kenposansoo@gmail.com</a>
                                 </address>
                                 <p>We are located at the corner of 25 Rd and Commerce Blvd. The entrance is on Commerce Blvd. at the northwest corner of the building.</p>
+                            </div>
+                            <div class="container">
+                                <h2>Contact Us</h2>
+                                <p>If you wish, you can use the below form to enter any comments, questions, or concerns you may have to us. We look forward to hearing from you soon!</p>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="firstName">First Name</label>
+                                        <input type="text" class="form-control" id="inputName1" placeholder="John"><br>
+                                        <label for="lastName">Last Name</label>
+                                        <input type="text" class="form-control" id="inputName2" placeholder="Smith"><br>
+                                        <label for="emailAddress">Email Address</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="john.smith@gmail.com"><br>
+                                        <label for="phoneNumber">Phone #</label>
+                                        <input type="tel" class="form-control" id="inputPhone" placeholder="(555) 867-5309"><br>
+                                        <label for="comments">Comments</label>
+                                        <textarea class="form-control" rows="5"></textarea><br>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
