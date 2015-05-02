@@ -1,0 +1,40 @@
+{
+  "name": "psdi",
+  "version": "0.0.1",
+  "description": "Home page of the Professional Self-Defense Institute",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-bower": "0.0.10",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "^3.0.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsbUSMC/psdi"
+  },
+  "keywords": [
+    "martial",
+    "arts",
+    "kempo",
+    "san",
+    "soo",
+    "jiujitsu"
+  ],
+  "author": "John Bissonette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsbUSMC/psdi/issues"
+  },
+  "homepage": "https://github.com/jsbUSMC/psdi"
+}
