@@ -8,15 +8,14 @@
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
     </head>
     <body>
         <div class="container">
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -24,7 +23,7 @@
                         </button>
                         <a class="navbar-brand" href="#">PSDI</a>
                     </div>
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="mynav">
                         <ul class="nav navbar-nav">
                             <li>
                                 <a href=".\index.html">Home</a>
@@ -50,7 +49,7 @@
             <h1>Technique of the Week</h1>
         </div>
         <div class="container">
-            <div class="embed-responsive embed-responsive-16by9">
+            <div id="fitvids-video">
                 <iframe class ="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/CpIX-UDRioQ" allowfullscreen></iframe>
             </div>
             <div class="container">
@@ -60,5 +59,11 @@
                 </p>
             </div>
         </div>
+    
+    <!-- Scripts -->
+    <script src="/psdi/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/psdi/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/psdi/bower_components/fitvids/jquery.fitvids.js"></script>
+    <script src="/psdi/assets/js/site.js"></script>
     </body>
 </html>
