@@ -2,6 +2,8 @@ var gulp = require("gulp"),
     less = require("gulp-less"),
     notify = require("gulp-notify"),
     bower = require("gulp-bower");
+    rename = require("gulp-rename"),
+    uglify = require("gulp-uglify")
     
 var config = {
     lessPath: "/psdi/assets/less",
